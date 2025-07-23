@@ -13,8 +13,6 @@ kubectl create ns argocd
 ```
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
-{% endcode %}
-
 
 
 3. 설치 확인
@@ -37,11 +35,9 @@ kubectl get all -n argocd
 
 5. curl 을 이용하여 최신버전의 ArgoCD Cli다운로드
 
-{% code overflow="wrap" %}
 ```
 curl -sSL -o argocd-linux-amd64 https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
 ```
-{% endcode %}
 
 
 
