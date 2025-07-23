@@ -12,7 +12,6 @@ kubectl config set-context --current --namespace=argocd
 
 2. Task 1 에서 구성한 Application을 argocd cli 명령어로 구성
 
-{% code overflow="wrap" %}
 ```
 argocd app create guestbook \
 --repo https://github.com/argoproj/argocd-example-apps.git \
@@ -20,7 +19,6 @@ argocd app create guestbook \
 --dest-server https://kubernetes.default.svc \
 --dest-namespace default
 ```
-{% endcode %}
 
 <figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
