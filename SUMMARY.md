@@ -1,0 +1,18 @@
+# Table of contents
+
+* [Lab 1 - ArgoCD 설치](README.md)
+  * [Task 1 - ArgoCD, ArgoCD CLI 설치](lab-1-argocd/task-1-argocd-argocd-cli.md)
+  * [Task 2 - Web UI 접속 및 암호설정](lab-1-argocd/task-2-web-ui.md)
+* [Lab 2 - Application & Project](lab-2-application-and-project/README.md)
+  * [Task 1 - Application (ArgoCD UI)](lab-2-application-and-project/task-1-application-argocd-ui.md)
+  * [Task 2 - Application (CMD 구성)](lab-2-application-and-project/task-2-application-cmd.md)
+  * [Task 3 - Project (Repo, NS, Resource 제한)](lab-2-application-and-project/task-3-project-repo-ns-resource.md)
+* [Lab 3 - Repository](lab-3-repository/README.md)
+  * [Task 1 - Repository 연동 (Github-C9)](lab-3-repository/task-1-repository-github-c9.md)
+  * [Task 2 - Repository 연동 (Github - ArgoCD)](lab-3-repository/task-2-repository-github-argocd.md)
+  * [Task 3 - Refresh](lab-3-repository/task-3-refresh.md)
+  * [Task 4 - Auto Sync](lab-3-repository/task-4-auto-sync.md)
+  * [Task 5 - Prune](lab-3-repository/task-5-prune.md)
+  * [Task 6 - Sync Wave](lab-3-repository/task-6-sync-wave.md)
+  * [Task 7 - Self Healing](lab-3-repository/task-7-self-healing.md)
+  * [Task 8 - Non cascade](lab-3-repository/task-8-non-cascade.md)
