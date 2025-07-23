@@ -4,11 +4,9 @@
 
 1. 서비스 유형 변경&#x20;
 
-{% code overflow="wrap" %}
 ```
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
 ```
-{% endcode %}
 
 
 
@@ -54,11 +52,9 @@ http://<ANY_WORKERNODE_EXTERNALIP>:<ARGOCDSERVER_SERVICE_NODEPORT>
 
 7. 암호 확인&#x20;
 
-{% code overflow="wrap" %}
 ```
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 ```
-{% endcode %}
 
 
 
@@ -78,12 +74,9 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 10. 터미널에서 argocd login
 
-{% code overflow="wrap" %}
 ```
 argocd login <ANY_WORKERNODE_EXTERNALIP>:<ARGOCDSERVER_SERVICE_NODEPORT> --insecure
 ```
-{% endcode %}
-
 <mark style="background-color:blue;">Username : admin</mark>&#x20;
 
 <mark style="background-color:blue;">Password : 7에서 확인한 암호</mark>
